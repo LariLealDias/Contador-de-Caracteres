@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Caracteres</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mingzat&display=swap" rel="stylesheet">
+</head>
+<body>
+        <section class="container">
+         <h1>Contador de caracteres</h1>
+            <div class="first">
+                    <p>Insira ou escolha abaixo a quantidade máxima de caracteres</p>
+                    <input class="input" type="number" name="enteredNumber" id="enteredNumber" placeholder="Apenas números">
+                    <input class="button" type="submit" value="Enviar" onclick="MaxCharacters()">
+            </div>
+
+            <div class="second">
+                <textarea id="textarea" placeholder="Digite aqui seu texto..."></textarea>
+                <span id="remainingCharacters"> caracteres restantes</span>
+             </div>
+        </section>
+
+    
+    <script src="script.js"></script>
+        
+</body>
+</html>
